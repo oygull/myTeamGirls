@@ -9,4 +9,27 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Livvic', sans-serif;
 }
+:root{
+  --bg-color1: #014e56;
+  --bg-color2:  #012f34;
+  --text-color: #fff;
+  --primary-color:#f67e7e;
+}
+.container{
+  width: 1130px;
+  padding: 0px 10px;
+}
+.btn{
+  cursor: pointer;
+  border: 2px solid #000;
+  padding: 9px 32px;
+  background-color: transparent;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 24px;
+}
+
