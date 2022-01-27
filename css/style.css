@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Livvic', sans-serif;
+ 
 }
 :root{
   --bg-color1: #014e56;
@@ -21,6 +22,7 @@ body {
   width: 1130px;
   padding: 0px 10px;
 }
+
 .btn{
   cursor: pointer;
   border: 2px solid #000;
@@ -143,3 +145,126 @@ a{
   top: -60px;
   left: 0;
 }
+
+
+/* ------- INDEX.HTML ----- */
+ 
+
+.hero__content2{
+  padding: 129px 0 250px 0;
+  background-color: var(--bg-color1);
+  position: relative;
+}
+
+ .hero__span{
+  color: var(--primary-color);
+}
+
+.hero__text-talent{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-color);
+  width: 445px;
+  position: relative;
+}
+
+.hero__text-talent::before{
+  content: '';
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: 0;
+}
+
+.hero__title-talent{
+  font-weight: bold;
+  color: var(--text-color);
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.hero__textbox-talent{
+  margin-top: 70px;
+}
+
+.hero__back-img1{
+  position: absolute;
+  top: 27%;
+  left: 0;
+}
+
+.hero__back-img2{
+  position: absolute;
+  bottom: 0;
+  right: 150px;
+}
+
+
+/* ---- BUILD ---- */
+
+.build{
+  background-color: var(--bg-color2);
+  padding: 240px 0 140px 0;
+  position: relative;
+}
+
+.build__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: var(--text-color);
+  width: 445px;
+  position: relative;
+}
+
+.build__title::before{
+  content: '';
+  width: 50px;
+  height: 4px;
+  background-color: var(--primary-color);
+  display: block;
+  position: absolute;
+  top: -90px;
+  left: 0;
+}
+
+.build__item{
+  margin-bottom: 32px;
+}
+
+.build__img{
+  margin-right: 23px;
+}
+
+.innerbox__title{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+}
+
+.innerbox__text{
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--text-color);
+  opacity: 0.8;
+  width: 445px;
+}
+
+.build__desc{
+  position: relative;
+  top: -120px;
+}
+
+.build__backimg{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
