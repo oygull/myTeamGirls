@@ -50,9 +50,11 @@ a{
 
 .hero{
   background-color: var(--bg-color1);
+}
+.hero__header{
+  background-color: var(--bg-color1);
   padding-top: 73px;
 }
-
 .nav__item:nth-child(2){
   margin-left: 40px;
 }
