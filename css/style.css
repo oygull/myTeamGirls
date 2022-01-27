@@ -268,3 +268,78 @@ a{
   right: 0;
 }
 
+/* ----PARTNERS ----- */
+
+.partners{
+  padding: 140px 0;
+  background-color: var(--bg-color1);
+  position: relative;
+}
+
+.partners__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;  
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 56px;
+}
+
+.partners__span{
+  color: #79c8c7;
+}
+
+.partners__text{
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--text-color);
+  position: relative;
+  z-index: 5;
+}
+
+.partners__name{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79c8c7;
+  margin-bottom: 2px;
+}
+.partners__job{
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--text-color);
+  margin-bottom: 32px;
+  font-style: italic;
+}
+.partners__item{
+  width: 350px;
+  text-align: center;
+  position: relative;
+}
+.partners__backimg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.partners__backimg2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.partners__item::before{
+  content: '';
+  width: 350px;
+  height: 100px;
+  display: block;
+  background-image: url(../images/tirnoq-img.svg);
+  background-position: left 120px top 10px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -46px;
+  z-index: 4;
+}
+
