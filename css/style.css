@@ -21,6 +21,19 @@ body {
   width: 1130px;
   padding: 0px 10px;
 }
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.grow{
+  flex-grow: 1;
+}
+
 .btn{
   cursor: pointer;
   border: 2px solid #000;
@@ -33,6 +46,7 @@ body {
   border-radius: 24px;
 }
 
+<<<<<<< HEAD
 /* Contact Part */
 
 .contact{
@@ -133,4 +147,91 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+=======
+/* ----  HEADER  ---- */
+
+.hero{
+  background-color: var(--bg-color1);
+  padding-top: 73px;
+}
+
+.nav__item:nth-child(2){
+  margin-left: 40px;
+}
+
+.nav__item:nth-child(1){
+  margin-left: 80px;
+}
+
+.nav__link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-color);
+}
+
+.hero__btn{
+  border-color: var(--text-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-color);
+}
+
+.hero__btn:hover{
+  background-color: #fff;
+  color: var(--bg-color2);
+}
+
+.hero__btn:focus{
+  color:  #ffffff7e;
+  border-color:  #ffffff8f;
+  background-color: transparent;
+}
+
+/*      --- HERO CONTENT ---- */
+
+.hero__content{
+  padding: 88px 0 120px 0;
+  background-color: var(--bg-color1);
+  position: relative;
+}
+
+.hero__textbox{
+  margin-top: 150px;
+}
+
+.hero__title{
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--text-color);
+}
+
+.hero__text{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-color);
+  width: 730px;
+  height: 156px;
+  position: relative;
+}
+
+.hero__back-img{
+  position: absolute;
+  top: 61%;
+  right: 0;
+}
+
+.hero__text::before{
+  content: '';
+  width: 50px;
+  height: 4px;
+  background-color: var(--primary-color);
+  display: block;
+  position: absolute;
+  top: -60px;
+  left: 0;
+>>>>>>> main
 }
