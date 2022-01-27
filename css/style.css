@@ -250,3 +250,35 @@ body {
   height: 45px;
   background-image: url('../images/client-img4.svg');
 }
+
+
+
+.aside{
+  padding: 76px 0;
+  background-color: var(--primary-color);
+  background-image: url('../images/aside-img.svg');
+  background-size: 200px 144px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.aside__title{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+  margin-left: 94px;
+}
+.aside__btnbox{
+  display: flex;
+  justify-content: center;
+}
+.aside__btn{
+  border: 2px solid var(--bg-color2);
+  color: var(--bg-color2);
+  background-color: transparent;
+  text-decoration: none;
+}
+.aside__btn:hover{
+  color: #fff;
+  background-color: var(--bg-color2);
+}
