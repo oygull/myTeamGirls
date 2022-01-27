@@ -147,14 +147,14 @@ a{
   position: absolute;
   bottom: 0;
   right: 0;
-=======
+
+
 /* ----  HEADER  ---- */
 
 .hero{
   background-color: var(--bg-color1);
   padding-top: 73px;
 }
-
 .nav__item:nth-child(2){
   margin-left: 40px;
 }
