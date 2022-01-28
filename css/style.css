@@ -218,11 +218,7 @@ a{
   padding-block: 30px 60px;
   margin-bottom: 24px;
 }
-.contact__btn{
-  background-color: #fff;
-  color: #004047;
-  border-color: #fff;
-}
+
 .contact__btn:hover{
   background-color: #79C8C7;
   border-color: #79C8C7;
@@ -734,7 +730,6 @@ a{
   color: var(--primary-color);
 }
 
-=======
 /* ----  HEADER  ---- */
 
 .hero{
@@ -1019,4 +1014,8 @@ a{
   z-index: 4;
 }
 
-
+.contact__btn{
+  background-color: #fff;
+  color: #004047;
+  border-color: #fff;
+}
