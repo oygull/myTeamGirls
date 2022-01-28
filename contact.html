@@ -16,7 +16,53 @@
 </head>
 
 <body>
-
+  <header class="hero__header header">
+    <div class="container">
+      <div class="row middle between">
+        <div class="header__logo-box">
+          <a href="#" class="header__logo-link">
+            <img class="header__logo" src="./images/myteam-logo.svg" alt="logo" width="160" height="40">
+          </a>
+        </div>
+        <nav class="header__nav nav grow">
+          <ul class="nav__list row middle">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">home</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">about</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="contact.html" class="btn hero__btn">contact us</a>
+      </div>
+    </div>
+  </header>
+  <section class="contact">
+    <div class="container">
+      <div class="contact__inner row between middle">
+        <div class="contact__desc">
+          <h2 class="contact__heading">Contact</h2>
+          <p class="contact__text">Ask us about</p>
+          <ul class="contact__list">
+            <li class="contact__item">The quality of our talent network</li>
+            <li class="contact__item">Usage & implementation of our software</li>
+            <li class="contact__item">How we help drive innovation</li>
+          </ul>
+        </div>
+        <form class="contact__form">
+          <input type="name" class="contact__input" placeholder="Name" required>
+          <input type="email" class="contact__input" placeholder="Email Address" required>
+          <input type="text" class="contact__input" placeholder="Company Name" required>
+          <input type="text" class="contact__input" placeholder="Title" required>
+          <input type="text" class="contact__input message" placeholder="Message" required>
+          <button type="submit" class="contact__btn btn">submit</button>
+        </form>
+      </div>
+    </div>
+    <img class="contact__bgimg1" src="images/contact-bg-img1.svg" alt="bg-img1">
+    <img class="contact__bgimg2" src="images/contact-bg-img2.svg" alt="bg-img2">
+  </section>
   <script src="js/main.js"></script>
 </body>
 
